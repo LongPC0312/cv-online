@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;  
+    border: 2px solid blue;
+    margin: auto;
+    width: 900px;
+}
+.left{
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(222,222,255,1);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+}
+.contact h1, .education h1, .skill h1, .language h1 {
+    color: white;
+    background-color: rgba(0,0,255,0.9);
+    padding: 0 20px;
+    background-width: 100%;
+}
+.contact dl, .education dl {
+    display: flex;
+    flex-direction: column;
+}
+.contact div,  {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.education dt, .language dt, .skill dt{
+    font-weight: bold;
+}
+.contact-item{
+    display: flex;
+    padding: 5px 0;
+}
+.right{
+    flex: 2;
+    padding: 20px;
+}
+.introduce h1, .about-me h2, .technical-skill h2, .workexperience h2, .project h2{
+    font-family: Georgia, serif;
+    margin-left: 50px;
+    color: rgba(0,0,255,0.9);
+}
+.introduce p{
+    font-family: Verdana, sans-serif;
+    margin-left: 50px;
+}
+.about-me li{
+    margin-left: 50px;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 10px;
+    width: 100%;
+    table-layout: fixed;
+}
+tbody tr td{
+    vertical-align: top;
+}
