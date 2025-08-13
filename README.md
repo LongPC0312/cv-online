@@ -5,8 +5,8 @@ Trang web được xây dựng bằng **HTML**, **CSS** và có thể mở rộn
 
 ## 🚀 Demo
 Bạn có thể xem demo trực tiếp tại:  
-[cv-online-dusky.vercel.app]
-
+[[cv-online-dusky.vercel.app]
+](https://cv-online-dusky.vercel.app/)
 ---
 
 ## 📥 Cài đặt và Chạy dự án
